@@ -1,0 +1,9 @@
+pyinstaller -F file.py -noconsole
+
+-F : 打包成一個檔案
+-D : 打包成相依性資料夾
+-c : 僅使用命令列，不開啟視窗
+-w : 僅使用使用者圖形介面，不開起命令列
+
+--icon=path : 設定icon
+--noconsole : 不要cmd視窗
